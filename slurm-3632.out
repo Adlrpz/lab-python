@@ -1,0 +1,17 @@
+Time taken by reduction operation: 0.31557202339172363 seconds
+310 ms ± 218 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time taken using a for loop: 0.2530996799468994 seconds
+254 ms ± 338 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using sum: 0.04865527153015137 seconds
+48.6 ms ± 33.5 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Time taken using a for loop with numpy array: 0.5104525089263916 seconds
+491 ms ± 261 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using numpy.sum(): 0.0034608840942382812 seconds
+3.35 ms ± 2.33 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using a for loop with numpy array with numba: 1.3292090892791748 seconds
+5.32 ms ± 7.09 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using numpy.sum() with numba: 0.12407064437866211 seconds
+3.25 ms ± 2.47 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
