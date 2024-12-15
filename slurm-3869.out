@@ -1,0 +1,105 @@
+Time taken by reduction operation: 0.3120386600494385 seconds
+308 ms ± 279 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time of the sum of a list of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop: 0.25357866287231445 seconds
+260 ms ± 1.57 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of a list of numbers using sum() measured with time.time and %timeit:
+Time taken using sum: 0.04858088493347168 seconds
+48.5 ms ± 34.2 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Time of the sum of an array of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop with numpy array: 0.5515117645263672 seconds
+500 ms ± 95.1 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of an array of numbers using np.sum() measured with time.time and %timeit:
+Time taken using numpy.sum(): 0.003509998321533203 seconds
+3.4 ms ± 6.52 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using a for loop with numpy array with numba:
+5.52 ms ± 61.4 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using numpy.sum() with numba:
+3.3 ms ± 3.62 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken by reduction operation: 0.3233206272125244 seconds
+310 ms ± 1.37 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time of the sum of a list of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop: 0.25235581398010254 seconds
+251 ms ± 148 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of a list of numbers using sum() measured with time.time and %timeit:
+Time taken using sum: 0.04889082908630371 seconds
+48.7 ms ± 41.9 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Time of the sum of an array of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop with numpy array: 0.5028767585754395 seconds
+496 ms ± 49.1 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of an array of numbers using np.sum() measured with time.time and %timeit:
+Time taken using numpy.sum(): 0.0035338401794433594 seconds
+3.39 ms ± 1.94 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using a for loop with numpy array with numba:
+5.79 ms ± 4.34 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using numpy.sum() with numba:
+3.3 ms ± 851 ns per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken by reduction operation: 0.30791807174682617 seconds
+306 ms ± 159 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time of the sum of a list of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop: 0.2521684169769287 seconds
+251 ms ± 26.6 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of a list of numbers using sum() measured with time.time and %timeit:
+Time taken using sum: 0.04857277870178223 seconds
+48.7 ms ± 56.7 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Time of the sum of an array of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop with numpy array: 0.49280500411987305 seconds
+479 ms ± 461 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of an array of numbers using np.sum() measured with time.time and %timeit:
+Time taken using numpy.sum(): 0.0034911632537841797 seconds
+3.38 ms ± 648 ns per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using a for loop with numpy array with numba:
+5.68 ms ± 32.7 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using numpy.sum() with numba:
+3.22 ms ± 12.3 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken by reduction operation: 0.3076493740081787 seconds
+307 ms ± 64.2 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time of the sum of a list of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop: 0.2527592182159424 seconds
+263 ms ± 1.29 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of a list of numbers using sum() measured with time.time and %timeit:
+Time taken using sum: 0.048584699630737305 seconds
+48.6 ms ± 26.4 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Time of the sum of an array of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop with numpy array: 0.49463391304016113 seconds
+478 ms ± 118 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of an array of numbers using np.sum() measured with time.time and %timeit:
+Time taken using numpy.sum(): 0.0036427974700927734 seconds
+3.38 ms ± 757 ns per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using a for loop with numpy array with numba:
+5.57 ms ± 175 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using numpy.sum() with numba:
+3.24 ms ± 2.54 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken by reduction operation: 0.31552624702453613 seconds
+307 ms ± 193 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+Time of the sum of a list of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop: 0.251650333404541 seconds
+251 ms ± 406 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of a list of numbers using sum() measured with time.time and %timeit:
+Time taken using sum: 0.04863262176513672 seconds
+48.5 ms ± 5.33 µs per loop (mean ± std. dev. of 2 runs, 10 loops each)
+Time of the sum of an array of numbers using a for loop measured with time.time and %timeit:
+Time taken using a for loop with numpy array: 0.5212228298187256 seconds
+495 ms ± 296 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time of the sum of an array of numbers using np.sum() measured with time.time and %timeit:
+Time taken using numpy.sum(): 0.0034875869750976562 seconds
+3.35 ms ± 1.69 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
+Time taken using a for loop with numpy array with numba:
+5.29 ms ± 26.7 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+Time taken using numpy.sum() with numba:
+3.24 ms ± 7.84 µs per loop (mean ± std. dev. of 2 runs, 100 loops each)
